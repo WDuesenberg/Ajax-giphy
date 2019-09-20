@@ -1,0 +1,9 @@
+body {
+    background-image: url("../assets/images/one-punch-man-game-header.jpg");
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    font: 35px;
+}

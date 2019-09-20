@@ -5,70 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" text="text/css" href="assets/style.css">
     <title>AwesomeAnime6000</title>
 </head>
 
 <body>
-    <h1>Character Search</h1>
+    <div class="container">
+        <h1>Character Search</h1>
+        <div id="buttons-view">
+            <form id="anime-form">
+                <label for="character-input">Who's your favorite?</label>
+                <input type="text" id="character-input">
+                <br>
+                <input id="add-character" type="submit" value="Who's your favorite?">
+            </form>
+        </div>
+    </div>
 
-    <body>
-        <div id="buttons">
-            <button data-character="Saitama">
+    <div id="selected-character">
+        <button data-character="Saitama">
               Saitama
             </button>
-            <button data-character="Naruto">
+        <button data-character="Naruto Uzumaki">
               Naruto
             </button>
-            <button data-character="Piccolo">
-                Piccolo
+        <button data-character="Goku">
+                Goku
             </button>
-            <button data-character="Faye Valentine">
+        <button data-character="Faye Valentine">
                 Faye Valentine
             </button>
-            <button data-character="Edward Elric">
-                    Edward Elric
-                </button>
-        </div>
+        <button data-character="Edward Elric">
+                Edward Elric
+            </button>
+    </div>
 
 
 
-        <div id="anime-view"></div>
+    <div id="anime-view"></div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript">
-            // var characters = ["Saitama", "Naruto", "Piccolo", "Faye Valentine", "Edward Elric"];
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        // var characters = ["Saitama", "Naruto", "Piccolo", "Faye Valentine", "Edward Elric"];
 
-            $("button").on("click", function() {
-                var character = $(this).attr("data-character");
-                var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-                    character + "&api_key=NzRPoo8Ds2KfUEoSaHR1ma9GnIvJ1Q92&limit=10";
 
-                $.ajax({
-                        url: queryURL,
-                        method: "GET"
-                    })
-                    .then(function(response) {
-                        var results = response.data;
+        $("button").on("click", function() {
+            var character = $(this).attr("data-character");
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+                character + "&api_key=NzRPoo8Ds2KfUEoSaHR1ma9GnIvJ1Q92&limit=10";
 
-                        for (var i = 0; i < results.length; i++) {
-                            var gifDiv = $("<div>");
-                            var rating = results[i].rating;
+            $.ajax({
+                    url: queryURL,
+                    method: "GET"
+                })
+                .then(function(response) {
+                    var results = response.data;
 
-                            var p = $("<p>").text("Rating: " + rating);
+                    for (var i = 0; i < results.length; i++) {
+                        var gifDiv = $("<div>");
+                        var rating = results[i].rating;
 
-                            var animeImage = $("<img>");
-                            animeImage.attr("src", results[i].images.fixed_height.url);
+                        var p = $("<p>").text("Rating: " + rating);
 
-                            gifDiv.prepend(p);
-                            gifDiv.prepend(animeImage);
+                        var animeImage = $("<img>");
+                        animeImage.attr("src", results[i].images.fixed_height.url);
 
-                            $("#anime-view").prepend(gifDiv);
+                        gifDiv.prepend(p);
+                        gifDiv.prepend(animeImage);
 
-                        }
-                    });
-            });
-        </script>
+                        $("#anime-view").prepend(gifDiv);
 
-    </body>
+                    }
+                });
+
+        });
+    </script>
+
+</body>
 
 </html>
+<!-- var a = $("<button>");
+        
+        a.addClass("character-btn");
+        
+        a.attr("data-name", character[i]);
+        
+        a.text(character[i]);
+        
+        $("#buttons-view").append(a); -->
