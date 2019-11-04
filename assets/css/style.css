@@ -21,17 +21,53 @@ h1 {
     
 }
 
-#anime-button {
+button.anime-button {
+    background-color: rgb(62, 69, 77);
+    border: whitesmoke;
+    color: red;
+    padding: 5px 23px;
+    margin: 30px 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 45px;    
+    margin-bottom: 45px;
+    cursor: pointer;    
 }
+
+button.anime-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(214, 23, 23, 0.24),0 17px 50px 0 rgba(170, 5, 5, 0.19);
+  }
 
 form {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    color: red;
+    margin: 10px 35px;
+    margin-top: 35px;
+    text-shadow: 2px 2px 4px whitesmoke;    
+
+}
+
+label {
+
+}
+
+input#add-character {
+    background-color: red;
+    border: whitesmoke;
+    color: whitesmoke;
+    padding: 7px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: medium;
+    margin-top: 17px;
+}
+
+input#add-character:hover {
+    box-shadow: 0 8px 20px 0 rgba(12, 22, 172, 0.24),0 17px 50px 0 rgba(14, 27, 206, 0.19);
 }
 
 /* #characters {
