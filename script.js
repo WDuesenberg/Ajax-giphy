@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
     var characters = [
-        "Saitama", "Naruto", "Piccolo", "Faye Valentine", "Edward Elric"];
+        "Saitama", "Naruto", "Goku", "Faye Valentine", "Edward Elric"];
 
     // function to make buttons and add to the page    
     function populateButtons(arrayToUse, classToAdd, areaToAddTo) {

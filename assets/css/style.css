@@ -1,18 +1,32 @@
-body {
-    background-image: url("../images/onepunchman.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
+* {
+    align-content: center;
     justify-content: center;
-    
+    text-align: center;
 }
+
+body {
+    background-image: url("../images/myGuy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    object-fit: cover;
+}   
 
 h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: calc(6px + 4vw);
+    font-size: calc(7px + 5vw);
+    color: ivory;
+    text-shadow: 2px 2px 4px red;    
     letter-spacing: 0.05em;
     
+}
+
+#anime-button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 45px;    
 }
 
 form {
@@ -20,7 +34,8 @@ form {
     text-align: center;
 }
 
-.anime-button {
+/* #characters {
     justify-content: center;
     align-items: center;
-}
+    text-align: center;
+} */
