@@ -33,11 +33,6 @@ $(document).ready(function() {
             
             for (var i = 0; i < results.length; i++) {
                 var gifDiv = $("<div class\"anime-item\">");
-                
-                // var rating = results[i].rating;
-
-                // var p = $("<p>").text("Rating: " + rating);
-
                 var animated = results[i].images.fixed_height.url;
                 var still = results[i].images.fixed_height_still.url;
                 

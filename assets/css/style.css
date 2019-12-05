@@ -50,10 +50,6 @@ form {
 
 }
 
-label {
-
-}
-
 input#add-character {
     background-color: red;
     border: whitesmoke;
@@ -70,8 +66,3 @@ input#add-character:hover {
     box-shadow: 0 8px 20px 0 rgba(12, 22, 172, 0.24),0 17px 50px 0 rgba(14, 27, 206, 0.19);
 }
 
-/* #characters {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
