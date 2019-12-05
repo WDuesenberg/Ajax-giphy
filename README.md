@@ -6,11 +6,11 @@ This application allows users to view the pre-loaded GIF's of popular anime char
 
 *Technology:*
 
-    HTML5,
-    CSS3,
-    JavaScript,
-    AJAX,
-    API(giphy)
+    - HTML5,
+    - CSS3,
+    - JavaScript,
+    - AJAX,
+    - API(giphy)
 
 ***Objective***
 
@@ -20,12 +20,12 @@ My goal was to use core Frontend languages to create a fun application that I an
 
 I would like to make the user interaction and experience more engaging. I'm also a big fan of CSS, so more creative and fun style features are definitely on the horizon for this application.
 
-*_Deployed_Page:*
+*Deployed Page:*
 https://wduesenberg.github.io/Ajax-giphy/
 
 *Contact:*
 
-    LinkedIn: https://www.linkedin.com/in/wyatt-duesenberg-283910123/
-    Email: wyatt.duesenberg@gmail.com
+    [LinkedIn] (https://www.linkedin.com/in/wyatt-duesenberg-283910123/)
+    [Email] (wyatt.duesenberg@gmail.com)
 
-Thank You
+***Thank You***
