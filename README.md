@@ -1,10 +1,10 @@
-*AwesomeAnime6000
+**AwesomeAnime6000**
 
-*Overview:
+***Overview***
 
 This application allows users to view the pre-loaded GIF's of popular anime characters or they may search for GIF's of an anime character of there choosing. There is also a function which allows the user to start and pause each individual GIF.
 
-*Technology:
+*Technology:*
 
     HTML5,
     CSS3,
@@ -12,18 +12,18 @@ This application allows users to view the pre-loaded GIF's of popular anime char
     AJAX,
     API(giphy)
 
-*Objective:
+***Objective***
 
 My goal was to use core Frontend languages to create a fun application that I and other users could enjoy while also learning and growing my skills as a Web Developer.
 
-*Future Goals:
+***Future Goals***
 
 I would like to make the user interaction and experience more engaging. I'm also a big fan of CSS, so more creative and fun style features are definitely on the horizon for this application.
 
-*Deployed Page:
+*_Deployed_Page:*
 https://wduesenberg.github.io/Ajax-giphy/
 
-Contact:
+*Contact:*
 
     LinkedIn: https://www.linkedin.com/in/wyatt-duesenberg-283910123/
     Email: wyatt.duesenberg@gmail.com
