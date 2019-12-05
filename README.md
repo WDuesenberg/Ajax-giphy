@@ -24,7 +24,8 @@ I would like to make the user interaction and experience more engaging. I'm also
 https://wduesenberg.github.io/Ajax-giphy/
 
 *Contact:*
-    [LinkedIn] (https://www.linkedin.com/in/wyatt-duesenberg-283910123/)
-    [Email] (wyatt.duesenberg@gmail.com)
 
-***Thank You***
+    LinkedIn: https://www.linkedin.com/in/wyatt-duesenberg-283910123/
+    Email: wyatt.duesenberg@gmail.com
+
+**Thank You**
