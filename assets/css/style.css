@@ -1,6 +1,4 @@
 * {
-    align-content: center;
-    justify-content: center;
     text-align: center;
 }
 
@@ -26,8 +24,8 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: calc(7px + 5vw);
     color: ivory;
-    text-shadow: 2px 2px 4px red;    
-    letter-spacing: 0.05em;
+    text-shadow: 3px 3px 6px red;    
+    letter-spacing: 0.07em;
     
 }
 
