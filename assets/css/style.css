@@ -13,7 +13,7 @@
 
 h1 {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Sarina', cursive;
     font-size: calc(7px + 7vw);
     color: ivory;
     text-shadow: 3px 3px 6px red;    
@@ -36,7 +36,7 @@ h1 {
     box-shadow: 0 9px crimson;
     margin: 30px 50px;
     letter-spacing: 0.4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Creepster', cursive;
     /* align-content: center; */
     /* justify-content: center; */
     /* margin-bottom: 45px; */
@@ -55,7 +55,7 @@ h1 {
 }
 
 form {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fascinate Inline', cursive;
     text-align: center;
     color: red;
     margin: 10px 35px;
@@ -72,7 +72,7 @@ input#add-character {
     padding: 7px 30px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: cursive;
+    font-family: 'Sarina', cursive;
     font-size: medium;
     margin-top: 20px;
 }
