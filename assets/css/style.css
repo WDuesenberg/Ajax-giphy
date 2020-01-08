@@ -14,7 +14,7 @@
 h1 {
     text-align: center;
     font-family: 'Sarina', cursive;
-    font-size: calc(7px + 7vw);
+    font-size: calc(8px + 8vw);
     color: ivory;
     text-shadow: 3px 3px 6px red;    
     letter-spacing: 0.07em;
@@ -24,7 +24,7 @@ h1 {
 .anime-button {
     display: inline-block;
     padding: 5px 23px;
-    font-size: 22px;
+    font-size: calc(1.6vh + 1.6vw);
     cursor: pointer;    
     text-align: center;
     text-decoration: none;
@@ -43,14 +43,15 @@ h1 {
 }
 
 .anime-button:hover {
-    background-color: rgb(150, 16, 16);
-    color: rgb(255, 0, 34);
+    background-color: crimson;
+    /* box-shadow: whitesmoke; */
+    color: tomato;
 }
 
 .anime-button:active {
     background-color: rgb(150, 16, 16);
     box-shadow: 0 4px rgb(255, 9, 9);
-    transform: translateY(4px);
+    transform: translateY(6px);
 
 }
 
@@ -82,13 +83,14 @@ input#add-character:hover {
 }
 
 label {
-    font-size: 20px;
+    font-size: calc(1.5vh + 1.5vw);
     letter-spacing: 0.4rem;
 }
 
 #anime-input {
     padding:  7px 7px 7px 7px;
-    font-family: 'Sarina', cursive;
+    font-family: 'Kavoon', cursive;
+    font-size: calc(1vh + 1vw);
     color: crimson;
 }
 
