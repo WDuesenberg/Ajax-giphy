@@ -55,7 +55,7 @@ h1 {
 }
 
 form {
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Creepster', cursive;
     text-align: center;
     color: red;
     margin: 10px 35px;
@@ -87,8 +87,8 @@ label {
 }
 
 #anime-input {
-    padding:  5px 5px 5px 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:  7px 7px 7px 7px;
+    font-family: 'Sarina', cursive;
     color: crimson;
 }
 
