@@ -7,7 +7,7 @@ This application allows users to view the preloaded GIFs of popular anime charac
 In order to build this application you must have a code editor like Visual Studio code insalled on your computer. You can download Visaul studio code for free at https://code.visualstudio.com/.
 You will also need to have an account with Giphy in order to obtain an API key. You can get an account with Giphy for free.
 Simply go to https://developers.giphy.com/ and follow the prompts to obtain the API key.
-Also if you don't already have a GitHub account it is highly recommended that you have one for a development environment.
+Also if you don't already have a GitHub account it is highly recommended that you have one for a proper development environment.
 
 *Technology:*
 
