@@ -9,6 +9,12 @@ You will also need to have an account with Giphy in order to obtain an API key. 
 Simply go to https://developers.giphy.com/ and follow the prompts to obtain the API key.
 Also if you don't already have a GitHub account it is highly recommended that you have one for a proper development environment.
 
+***Installing***
+
+Once downloaded, follow the prompts and finnish installing VS code. after installation open VS code.
+Terminal(Mac) or Bash(PC) will be required for commiting and saving code editing.
+
+
 *Technology:*
 
     - HTML5,
